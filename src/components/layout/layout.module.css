@@ -1,0 +1,20 @@
+.wrapper {
+    height: 100vh;
+}
+
+.body {
+    background: transparent !important;
+}
+
+.header {
+    background-color:transparent !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 10px -10px !important;
+    min-height: 100px !important;
+}
+.sider {
+    background-color:transparent !important;
+}
+.content {
+    overflow: auto;
+    padding: 62px 50px 32px 50px;
+}

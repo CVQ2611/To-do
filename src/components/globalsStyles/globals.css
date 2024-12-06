@@ -1,0 +1,79 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary-opacity: #FF9090;
+  --primary: #FF6767;
+  --not_start: #F21E1E;
+  --inprogress: #0225FF;
+  --complete: #05A301;
+  --moderate: #3ABEFF;
+  --top-background: #F8F8F8;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: optional;
+  src: url(/src/fonts/Montserrat-VariableFont_wght.ttf) format("truetype");
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --primary-opacity: #FF9090;
+    --primary: #FF6767;
+    --not_start: #F21E1E;
+    --inprogress: #0225FF;
+    --complete: #05A301;
+    --moderate: #3ABEFF;
+    --top-background: #171717;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  /* margin-left: 4px; */
+}
+
+::-webkit-scrollbar-track {
+  border: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}

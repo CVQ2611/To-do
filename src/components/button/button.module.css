@@ -1,0 +1,18 @@
+.btn {
+    padding: 8px 16px;
+    font-weight: 400;
+    min-width: 135px;
+    background-color: var(--primary-opacity);
+    height: 40px;
+    color: white;
+    border: none;
+    outline: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: var(--primary-opacity) !important;
+    color: white !important;
+}

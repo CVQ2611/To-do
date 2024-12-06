@@ -1,15 +1,12 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import "./globals.css";
+import "@/components/globalsStyles/globals.css";
+import Layout from "@/components/layout/layout";
+import { AntdRegistry } from "@ant-design/nextjs-registry";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
+const geistMonts = localFont({
+  src: "../fonts/Montserrat-VariableFont_wght.ttf",
+  variable: "--font-geist-monts",
   weight: "100 900",
 });
 
@@ -25,8 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+      <body className={`${geistMonts.variable}`}>
+        <AntdRegistry>
+          <Layout>{children}</Layout>
+        </AntdRegistry>
       </body>
     </html>
   );

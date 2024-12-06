@@ -1,0 +1,78 @@
+.wrapper {
+    height: 100% !important;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: black;   
+    text-align: left;
+}
+
+.autoComplete {
+    width: 100% !important;
+    height: 36px !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px ;
+    background-color: transparent;
+}
+
+.inputSearch > span > input {
+    width: 100% !important;
+    height: 36px !important;
+    border-radius: 8px;
+    border: none;
+    font-size: 12px;
+    outline: none;
+}
+
+.inputSearch > span > input:focus {
+    border: none;
+    outline: none;
+}
+
+.inputSearch > span > span > button {
+    border-radius: 8px !important;
+    height: 36px !important;
+    width: 36px !important;
+    margin-left: -4px !important;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
+    align-items: center;
+}
+
+.buttonControl {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.btn_actions {
+    width: 34px;
+    height: 34px;
+    border-radius: 8px !important;
+}
+
+.day, .date {
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 600;
+}
+
+.date {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--moderate);
+}
+
+.wrapper_btn {
+    height: 58px;
+}
+
+.modal_notifi > div > div{
+    border-radius: 8px !important;
+}

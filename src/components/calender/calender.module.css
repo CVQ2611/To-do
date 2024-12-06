@@ -1,0 +1,13 @@
+.btn_header {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px !important;
+}
+
+.header {
+    width:  100%;
+}
+
+.time_header {
+    margin: 0 !important;
+}
