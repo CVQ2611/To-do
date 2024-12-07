@@ -1,4 +1,45 @@
 .sidebar {
-    background-color: var(--primary) !important;
     height: 100%;
+    text-align: center;
 }
+
+.menu {
+    background-color: var(--primary);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 120px 16px 32px 16px;
+    margin-top: -100px;
+    height: calc(100% - 48px);
+}
+
+.name {
+    margin: 0 !important;
+    color: white !important ;
+}
+
+.menu_item {
+    width: 100%;
+    text-align: left;
+    background-color: transparent !important;
+    border-inline-end: none !important;
+    color: white;
+}
+
+.menu_item > li {
+    height: 59px !important;
+    border-radius: 12px !important;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 16px;
+}
+
+.btn_logout {
+    justify-content: flex-start !important;
+    padding-left: 28px !important;
+    gap: 16px !important;
+    font-size: 16px !important;
+    color: white !important;
+    height: 59px !important;
+    border-radius: 12px !important;
+}
+
